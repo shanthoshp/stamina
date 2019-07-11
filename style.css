@@ -1,0 +1,93 @@
+.body {
+    min-width: 250px;
+    min-height: 280px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    
+}
+
+.inputText {
+  background-color: lightblue;
+  width: 100%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  text-align: center
+}
+
+ .inputText:focus {
+  background-color: white;
+  border: 1px solid lightblue;
+}
+
+h1 {
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+}
+
+.inputGOButton {
+	background-color: green;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:30px;
+	border:1px solid green;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px green;
+    margin-bottom: -10px;
+}
+
+.inputGOButton:hover {
+	background-color: darkgreen;
+}
+.inputGOButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+.inputSTOPButton {
+	background-color: red;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:30px;
+	border:1px solid red;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px red;
+    margin-bottom: -10px;
+}
+
+.inputSTOPButton:hover {
+	background-color: darkred;
+}
+.inputSTOPButton:active {
+	position:relative;
+	top:1px;
+}
